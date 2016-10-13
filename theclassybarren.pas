@@ -1,10 +1,9 @@
 {
     "name": "TheClassyBarren",
 	"creator": "AndreasG",
-	"version": "1.0",
+	"version": "1.1",
 	"date": "2016/01/30",
 	"description": "This map takes you back to the roots of PA where the barren moon ruled the ancient universe. This is a dox haven with enough metal for most players  ",
-
     "planets": [
         {
             "name": "Barren",
@@ -35,8 +34,8 @@
                 "symmetricalMetal": true,
                 "symmetricalStarts": true,
                 "numArmies": 2,
-                "landingZonesPerArmy": 0,
-                "landingZoneSize": 742
+                "landingZonesPerArmy": 2,
+                "landingZoneSize": 480
             },
             "planetCSG": [
                 {
@@ -131,7 +130,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 15,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -180,7 +179,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 15,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -229,7 +228,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 16,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -278,7 +277,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 16,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -327,7 +326,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 17,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -376,7 +375,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 17,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -425,7 +424,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 18,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -474,7 +473,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 18,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -621,7 +620,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 21,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
@@ -670,7 +669,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 21,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": false,
                     "mergeable": false,
@@ -719,7 +718,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 22,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -768,7 +767,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 22,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -817,7 +816,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 23,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -866,7 +865,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 23,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -964,7 +963,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 26,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -1013,7 +1012,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 26,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -1062,7 +1061,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 27,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -1111,7 +1110,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 27,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -1160,7 +1159,7 @@
                         1
                     ],
                     "mirrored": false,
-                    "twinId": 28,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -1209,7 +1208,7 @@
                         1
                     ],
                     "mirrored": true,
-                    "twinId": 28,
+                    "twinId": 0,
                     "flooded": false,
                     "pathable": true,
                     "mergeable": true,
@@ -1828,46 +1827,60 @@
                     -441.23193359375
                 ],
                 [
-                    6.881828308105469,
-                    6.891232013702393,
-                    498.109619140625
+                    -1.9080123901367188,
+                    1.763824462890625,
+                    -498.2489013671875
                 ],
                 [
-                    6.881828308105469,
-                    6.891232013702393,
-                    -498.109619140625
+                    -1.9080123901367188,
+                    1.763824462890625,
+                    498.2489013671875
                 ],
                 [
-                    -0.5007400512695312,
-                    -34.58509063720703,
-                    497.75616455078125
+                    -40.9596061706543,
+                    -1.35540771484375,
+                    -497.10797119140625
                 ],
                 [
-                    -0.5007400512695312,
-                    -34.58509063720703,
-                    -497.75616455078125
+                    -40.9596061706543,
+                    -1.35540771484375,
+                    497.10797119140625
                 ],
                 [
-                    -41.857547760009766,
-                    -29.434179306030273,
-                    496.7066650390625
+                    -19.664031982421875,
+                    -31.5025634765625,
+                    -497.7147216796875
                 ],
                 [
-                    -41.857547760009766,
-                    -29.434179306030273,
-                    -496.7066650390625
-                ],
-                [
-                    -33.697715759277344,
-                    12.969565391540527,
-                    497.29541015625
-                ],
-                [
-                    -33.697715759277344,
-                    12.969565391540527,
-                    -497.29541015625
+                    -19.664031982421875,
+                    -31.5025634765625,
+                    497.7147216796875
                 ]
-            ]
+            ],
+            "landing_zones": {
+                "list": [
+                    [
+                        -22.794052124023438,
+                        -12.050460815429688,
+                        498.195556640625
+                    ],
+                    [
+                        -22.794052124023438,
+                        -12.050460815429688,
+                        -498.195556640625
+                    ]
+                ],
+                "rules": [
+                    {
+                        "min": 0,
+                        "max": 10
+                    },
+                    {
+                        "min": 0,
+                        "max": 10
+                    }
+                ]
+            }
         }
     ]
 }
